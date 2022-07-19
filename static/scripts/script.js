@@ -60,7 +60,7 @@ window.onclick = (e) => {
     }
   });
 };
-
+/*
 const createStyle = () => {
 	let i;
 	for (i = 0; i < styles.length; i++) {
@@ -87,6 +87,34 @@ const createStyle = () => {
 window.onload = () => {
 	createStyle();
 }
+*/
 
+const createStyle = () => {
+  styles.forEach(style => {
+    const styleDiv = createElem("div", "style"); // calling createElem function
+    const getStyleContainer = document.getElementById('style-container');
+    getStyleContainer.appendChild(styleDiv);
+    const styleImage = createElem("img", "myImg-style"); // calling createElem function
+    styleImage.src = style.img; // you were missing this it says that set src attribute to style.img(I have used unsplash images) for your code it's your path
+    styleDiv.appendChild(styleImage);
+   // const myTitle = createElem("h1", "my-title");
+    //myTitle.innerHTML = style.code;
+    //styleDiv.appendChild(myTitle);
+    //const myDescription = createElem("p", "my-description");
+    //myDescription.innerHTML = style.description;
+    //styleDiv.appendChild(myDescription);
+  })
+}
+// for creating an elemnt
+function createElem(tagName, className) {
+  const element = document.createElement(tagName);
+  element.setAttribute('class', className);
+  return element;
+}
+
+
+window.onload = () => {
+  createStyle();
+}
 
 
