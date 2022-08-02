@@ -6,27 +6,28 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-<title>Daniel Footwear AW22 Look Book</title>
+<title>Daniel Footwear - Heels</title>
 <link rel="stylesheet" href="static/styles/styles.css">
-<link rel="stylesheet" href="static/styles/index-styles.css">
+<link rel="stylesheet" href="static/styles/department-styles.css">
+<!--<link rel="stylesheet" href="static/styles/collection-styles.css">-->
 </head>
 
 <body>
-	 <header>
+	<header>
       <nav>
-        <div>
-          <button id="mobile-nav-icon">
-            <img src="static/images/icon-menu.svg" alt="menu" class="btn" id="mobile-menu">
-          </button>
-        </div>
+      <div>
+        <button id="mobile-nav-icon">
+          <img src="static/images/icon-menu.svg" alt="menu" class="btn" id="mobile-menu">
+        </button>
+      </div>
         <div id="nav-logo-items">
           <div id="nav-item-div">
             <ul id="desktop-nav">
-              <li><a href="#" class="active-page">HOME</a></li>
+              <li><a href="index.html">HOME</a></li>
               <li><a href="boots.html">BOOTS</a></li>
               <li><a href="#">TRAINERS</a></li>
               <li><a href="#">FLATS</a></li> 
-              <li><a href="heels.html">HEELS</a></li>
+              <li><a href="#" class="active-page">HEELS</a></li>
               <li><a href="the-collection.html">THE COLLECTION</a></li>
               <li><a href="https://www.danielfootwear.com/" target="_blank">VISIT DANIELFOOTWEAR.COM</a></li>
             </ul>
@@ -35,33 +36,47 @@
       </nav>
       <nav class="modal" id="m-nav">
         <div id="mobile-nav">
-          <span class="close" id="close">&times;</span>
-          <br>
-          <br>
+          <div class="close-contain">
+              <span class="close">&times;</span>
+          </div>
           <ul id="m-nav-ul">
-            <li><a href="#" class="active-page">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
             <li><a href="boots.html">BOOTS</a></li>
             <li><a href="#">TRAINERS</a></li>
             <li><a href="#">FLATS</a></li>
-            <li><a href="heels.html">HEELS</a></li>
+            <li><a href="#" class="active-page">HEELS</a></li>
             <li><a href="the-collection.html">THE COLLECTION</a></li>
             <li><a href="https://www.danielfootwear.com/" target="_blank">VISIT DANIELFOOTWEAR.COM</a></li>
           </ul>
         </div>
       </nav>
-    </header>
+	</header>
+	<section>
+      <div class="modal" id="style-modal">
+		  <div class="modal-style-container">
+          <span class="close">&times;</span>
+			  <div class="modal-product">
+			  </div>
+		  </div>
+      </div>
+	</section>
 	<main>
-      <div id="home-contain">
-        <div id="lookbook-text">
-          <p id="hp-df1">DANIEL FOOTWEAR</p>
-          <p id="hp-df2">AUTUMN / WINTER 2022</p>
-          <p id="hp-df3">COLLECTION</p>
-        </div>
-        <div id="home-image">
-          <img id="shoot1" src="static/images/placeholder.jpeg" alt="DANIEL AUTUMN / WINTER 2022 COLLECTION">
-        </div>
+      <div id="style-container">
+		  <div class ="img-container">
+              <img src="static/images/ALUNAR-GDL.jpg" alt="Alunar-GDL" class="btn img-style">
+		  </div>
+		  <div class ="img-container">
+              <img src="static/images/ALUNAR-GNL.jpg" alt="Alunar-GNL" class="btn img-style">
+		  </div>
+		  <div class ="img-container">
+              <img src="static/images/ALUNAR-SLL.jpg" alt="Alunar-SLL" class="btn img-style">
+		  </div>
+		  <div class ="img-container">
+              <img src="static/images/ALUNAR-WTL.jpg" alt="Alunar-WTL" class="btn img-style">
+		  </div>
       </div>
 	</main>
+	
 	<script src="static/scripts/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#home-contain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#lookbook-text {
+	position: absolute;
+}
+
+#lookbook-text {
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 10px #969696;
+}
+
+#hp-df1, #hp-df3 {
+	font-size: 20pt;
+	letter-spacing: 0.3em;
+}
+
+#hp-df2 {
+	font-size: 40pt;
+	letter-spacing: 0.3em;
+}
+
+#home-image {
+	width: 100vw;
+}
+
+#shoot1 {
+	width: 100vw;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+ 	
+	#hp-df1, #hp-df3 {
+        font-size: 20pt;
+        letter-spacing: 0.3em;
+    }
+
+    #hp-df2 {
+        font-size: 40pt;
+        letter-spacing: 0.3em;
+    }
+
+    #home-image {
+        height: 100vh;
+    }
+
+    #shoot1 {
+        height: 100vh;
+		object-fit: cover;
+    }
+	
+	#style-container {
+		margin: 20px;
+	}
+	
+	.img-container {
+        width: 150px;
+        height: 210px;
+        margin: 10px 5px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f7f7f7;
+    }
+
+    .img-style {
+        width: 150px;
+        height: 210px;
+        object-fit: contain;
+    }
+}
