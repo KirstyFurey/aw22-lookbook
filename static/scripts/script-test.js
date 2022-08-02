@@ -1,5 +1,50 @@
 // JavaScript Document
 
+const styles = [
+    {
+      description: 'Alunar Gold Leather Sling Back Heels',
+      code: 'ALUNAR GDL',
+      img: 'static/images/ALUNAR-GDL.jpg',
+      department: 'heels',
+    },
+    {
+      description: 'Alunar Green Leather Sling Back Heels',
+      code: 'ALUNAR GNL',
+      img: 'static/images/ALUNAR-GNL.jpg',
+      department: 'heels',
+    },
+    {
+      description: 'Alunar Silver Leather Sling Back Heels',
+      code: 'ALUNAR SLL',
+      img: 'static/images/ALUNAR-SLL.jpg',
+      department: 'heels',
+    },
+    {
+      description: 'Alunar White Leather Sling Back Heels',
+      code: 'ALUNAR WTL',
+      img: 'static/images/ALUNAR-WTL.jpg',
+      department: 'heels',
+    },
+    {
+      description: 'Soglit Lilac Slipper Sheepskin Slippers',
+      code: 'SOGLIT LIM',
+      img: 'static/images/SOGLIT-LIM.jpg',
+      department: 'slippers',
+    },
+    {
+      description: 'Soglit Multicolour Slipper Sheepskin Slippers',
+      code: 'SOGLIT MUL',
+      img: 'static/images/SOGLIT-MUL.jpg',
+      department: 'slippers',
+    },
+    {
+      description: 'Becks',
+      code: 'BECKS TNS',
+      img: 'static/images/BECKS-TNS.jpg',
+      department: 'boots',
+    },
+]
+
 const btns = document.getElementsByClassName('btn'); // GET ANY ELEMENT WITH A CLASS OF BTN FOR MODAL
 const close = document.getElementsByClassName('close'); // GET ANY ELEMENT WITH CLASS OF CLOSE
 const modals = document.getElementsByClassName('modal'); // GET ANY ELEMENT WITH CLASS OF MODAL
@@ -22,7 +67,7 @@ window.onclick = (e) => {
         }
     });
 };
-/*
+
 const createStyle = () => {
     styles.forEach(style => {
         const styleDiv = createElem('div', 'img-container');
@@ -46,7 +91,7 @@ window.onload = () => {
     createStyle();
 }
 
-*/
+
 
 
 
