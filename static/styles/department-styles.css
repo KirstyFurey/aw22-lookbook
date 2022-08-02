@@ -1,3 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
 
+#style-container {
+	width: 100vw;
+	display: flex;
+	margin: 50px;
+	flex-wrap: wrap;
+}
+
+.img-container {
+	margin: 10px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #f7f7f7;
+}
+
+.img-style {
+	
+}
+
+.style-desc {
+	letter-spacing: 0.15em;
+}
