@@ -6,6 +6,8 @@
 	display: flex;
 	margin: 50px;
 	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .img-container {
@@ -14,12 +16,34 @@
     justify-content: center;
     align-items: center;
 	background-color: #f7f7f7;
+	height: 520px;
+	width: 400px;
 }
 
 .img-style {
-	
+	height: 520px;
+	width: 400px;
+    object-fit: contain;
+}
+
+.desc-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.description {
+	margin: 0px 20px;
 }
 
 .style-desc {
 	letter-spacing: 0.15em;
+	font-weight: 200;
+	font-size: 12pt;
+}
+
+.style-code {
+	letter-spacing: 0.15em;
+	font-weight: 700;
+	font-size: 7pt;
 }
