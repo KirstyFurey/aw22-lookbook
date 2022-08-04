@@ -58,7 +58,6 @@
 .modal-contents {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
 
 .modal-description {
@@ -92,6 +91,11 @@ img:hover {
     transform:scale(3);
 }
 */
+@media only screen and (min-width: 900px) {
+	.modal-contents {
+		align-items: center;
+	}
+}
 
 @media only screen and (max-width: 900px) {
 	
@@ -114,4 +118,17 @@ img:hover {
         height: 210px;
         object-fit: contain;
     }
+	
+	.modal-contents {
+		flex-direction: column;
+		align-items: none;
+	}
+	
+	.modal-description {
+		height: auto;
+		width: 360px;
+		padding: 20px 20px;
+		margin-top: 0px;
+		word-wrap: break-word;
+	}
 }
