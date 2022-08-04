@@ -42,11 +42,45 @@
 	background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
 }
 
-.img-modal {
-	background-color: #f7f7f7;
-	width: 50vw;
+.modal-img-contain {
 	margin-top: 20px;
-	left: 50;
+	background-color: #f7f7f7;
+	width: 400px;
+	height: 520px;
+}
+
+.img-modal {
+	width: 400px;
+	height: 520px;
+	object-fit: contain;
+}
+
+.modal-contents {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-description {
+	background-color: #f7f7f7;
+	margin-top: 20px;
+	padding: 0px 40px;
+	height: 520px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.style-desc {
+	letter-spacing: 0.15em;
+	font-weight: 200;
+	font-size: 12pt;
+}
+
+.style-code {
+	letter-spacing: 0.15em;
+	font-weight: 700;
+	font-size: 7pt;
 }
 /*
 img {

@@ -5,6 +5,7 @@ const close = document.getElementsByClassName('close'); // GET ANY ELEMENT WITH 
 const modals = document.getElementsByClassName('modal'); // GET ANY ELEMENT WITH CLASS OF MODAL
 
 //OPEN AND CLOSE MULTIPLE MODALS
+//WORKS BY INDEXING THE MODAL AND BTN CLASSES SO CLICKING ON THE 3RD ELEMENT WITH A BTN CLASS OPENS THE 3RD ELEMENT WITH THE MODAL CLASS
 [...btns].forEach((btn, ind) => {
     btn.onclick = () => (modals[ind].style.display = 'block');
 });
