@@ -46,7 +46,7 @@ ul {
     list-style-type: none;
 }
 
-a {
+nav a {
     display: flex;
     align-items: center;
     height: 35px;
@@ -56,7 +56,7 @@ a {
 	color: black;
 }
 
-a:hover {
+nav a:hover {
     cursor: pointer;
     transition: all 0.2s ease;
 	color: hsl(0, 0%, 60%);
