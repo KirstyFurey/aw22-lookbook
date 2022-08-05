@@ -59,7 +59,7 @@
 }
 
 /* Next & previous buttons */
-.prev, .next {
+#prev, #next {
     cursor: pointer;
     /*position: fixed;
     /*top: 50%;*/

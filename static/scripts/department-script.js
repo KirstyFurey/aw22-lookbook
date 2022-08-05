@@ -3,6 +3,38 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+
+// Next/previous controls
+const plusSlides = (n) => {
+  showSlides(slideIndex += n);
+}
+
+const prev = document.getElementById("prev");
+
+prev.onclick = () => {
+	plusSlides(-1);
+}
+
+const next = document.getElementById("next");
+
+next.onclick = () => {
+	plusSlides(1);
+}
+
+/*
+let slideIndex = 1;
+showSlides(slideIndex);
+
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -28,3 +60,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+*/
