@@ -8,10 +8,12 @@ body {
 	padding: none;
 }
 
-button {
+.mobile-nav-icon {
     border-radius: 0px;
     background-color: #fff;
     border: none;
+	padding: 10px;
+	cursor: pointer;
 }
 
 nav {
