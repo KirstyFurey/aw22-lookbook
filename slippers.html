@@ -6,9 +6,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-<title>Daniel Footwear AW22 Look Book</title>
+<title>Daniel Footwear - Slippers</title>
 <link rel="stylesheet" href="static/styles/styles.css">
-<link rel="stylesheet" href="static/styles/index-styles.css">
+<link rel="stylesheet" href="static/styles/department-styles.css">
 </head>
 
 <body>
@@ -22,12 +22,12 @@
         <div id="nav-logo-items">
           <div id="nav-item-div">
             <ul id="desktop-nav">
-              <li><a href="#" class="active-page">HOME</a></li>
+              <li><a href="index.html">HOME</a></li>
               <li><a href="boots.html">BOOTS</a></li>
               <li><a href="trainers.html">TRAINERS &amp; FLATS</a></li>
               <!--<li><a href="flats.html">FLATS</a></li>-->
               <li><a href="heels.html">HEELS</a></li>
-              <li><a href="slippers.html">SLIPPERS</a></li>
+              <li><a href="#" class="active-page">SLIPPERS</a></li>
               <li><a href="the-collection.html">THE COLLECTION</a></li>
               <li><a href="https://www.danielfootwear.com/" target="_blank">VISIT DANIELFOOTWEAR.COM</a></li>
             </ul>
@@ -40,12 +40,12 @@
           <br>
           <br>
           <ul id="m-nav-ul">
-              <li><a href="#" class="active-page">HOME</a></li>
+              <li><a href="index.html">HOME</a></li>
               <li><a href="boots.html">BOOTS</a></li>
               <li><a href="trainers.html">TRAINERS &amp; FLATS</a></li>
               <!--<li><a href="flats.html">FLATS</a></li>-->
               <li><a href="heels.html">HEELS</a></li>
-              <li><a href="slippers.html">SLIPPERS</a></li>
+              <li><a href="#" class="active-page">SLIPPERS</a></li>
               <li><a href="the-collection.html">THE COLLECTION</a></li>
               <li><a href="https://www.danielfootwear.com/" target="_blank">VISIT DANIELFOOTWEAR.COM</a></li>
           </ul>
@@ -53,17 +53,25 @@
       </nav>
     </header>
 	<main>
-      <div id="home-contain">
-        <div id="lookbook-text">
-          <p id="hp-df1">DANIEL FOOTWEAR</p>
-          <p id="hp-df2">AUTUMN / WINTER 2022</p>
-          <p id="hp-df3">COLLECTION</p>
+      <div id="style-container">
+        <!-- Prev button -->
+        <a id="prev">&#10094;</a>
+        <div class="mySlides fade">
+            <div class ="img-container">
+                <img src="static/images/ALUNAR-GDL.jpg" alt="Alunar-GDL" class="img-style">
+            </div>
+            <div class="desc-container">
+                <div class="description">
+                    <p class="style-desc">Alunar Gold Leather Sling Back Heels</p>
+                    <p class="style-code">ALUNAR-GDL</p>
+                </div>
+            </div>
         </div>
-        <div id="home-image">
-          <img id="shoot1" src="static/images/placeholder.jpg" alt="DANIEL AUTUMN / WINTER 2022 COLLECTION">
-        </div>
+        <!-- Next button -->
+        <a id="next">&#10095;</a>
       </div>
 	</main>
 	<script src="static/scripts/script.js"></script>
+	<script src="static/scripts/department-script.js"></script>
 </body>
 </html>
