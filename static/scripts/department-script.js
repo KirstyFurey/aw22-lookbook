@@ -52,25 +52,14 @@ gestureZone.addEventListener('touchend', function(event) {
 }, false); 
 
 function handleGesture() {
-    if (touchendX <= touchstartX) {
-        console.log('Swiped left');
+    if (touchendX < touchstartX) {
+		plusSlides(1);
     }
     
-    if (touchendX >= touchstartX) {
-        console.log('Swiped right');
+    if (touchendX > touchstartX) {
+		plusSlides(-1);
     }
     
-    if (touchendY <= touchstartY) {
-        console.log('Swiped up');
-    }
-    
-    if (touchendY >= touchstartY) {
-        console.log('Swiped down');
-    }
-    
-    if (touchendY === touchstartY) {
-        console.log('Tap');
-    }
 }
 
 /*
