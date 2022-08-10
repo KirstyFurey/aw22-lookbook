@@ -2,10 +2,10 @@
 /* CSS Document */
 
 #style-container {
-	width: 100vw;
+	/*width: 100vw;*/
 	display: flex;
 	margin-top: 50px;
-	flex-wrap: wrap;
+	/*flex-wrap: wrap;*/
 	justify-content: center;
 	align-items: center;
 }
