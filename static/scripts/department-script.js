@@ -31,7 +31,7 @@ next.onclick = () => {
 	plusSlides(1);
 }
 
-
+/*
 // swipe to move image
 var touchstartX = 0;
 var touchendX = 0;
