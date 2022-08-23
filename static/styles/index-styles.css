@@ -4,27 +4,28 @@
 
 #home-contain {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 }
 
 #lookbook-text {
 	position: absolute;
+	margin-left: 50px;
 }
 
 #lookbook-text {
 	color: white;
-	text-align: center;
-	text-shadow: 1px 1px 10px #969696;
+	text-align: left;
+	/*text-shadow: 1px 1px 10px #969696;*/
 }
 
 #hp-df1, #hp-df3 {
-	font-size: 20pt;
+	font-size: 16pt;
 	letter-spacing: 0.3em;
 }
 
 #hp-df2 {
-	font-size: 40pt;
+	font-size: 30pt;
 	letter-spacing: 0.3em;
 }
 
@@ -41,12 +42,12 @@
 
  	
 	#hp-df1, #hp-df3 {
-        font-size: 20pt;
+        font-size: 12pt;
         letter-spacing: 0.3em;
     }
 
     #hp-df2 {
-        font-size: 40pt;
+        font-size: 20pt;
         letter-spacing: 0.3em;
     }
 
@@ -57,12 +58,13 @@
     #shoot1 {
         height: 100vh;
 		object-fit: cover;
+		object-position: -400px;
     }
 	
+	/*
 	#style-container {
 		margin: 20px;
 	}
-	
 	.img-container {
         width: 150px;
         height: 210px;
@@ -77,5 +79,26 @@
         width: 150px;
         height: 210px;
         object-fit: contain;
+    }*/
+}
+
+@media only screen and (max-width: 700px) {
+	
+	#shoot1 {
+		object-position: -500px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+	
+	#shoot1 {
+		object-position: -600px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+	
+	#shoot1 {
+		object-position: -700px;
     }
 }
