@@ -103,7 +103,7 @@
     #shoot1 {
         height: 100vh;
 		object-fit: cover;
-		object-position: -400px;
+		/*object-position: -400px;*/
     }
 	
 	/*
@@ -126,7 +126,7 @@
         object-fit: contain;
     }*/
 }
-
+/*
 @media only screen and (max-width: 700px) {
 	
 	#shoot1 {
@@ -147,3 +147,4 @@
 		object-position: -700px;
     }
 }
+*/
