@@ -50,7 +50,7 @@
 }
 
 .modal-img-contain {
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	background-color: #f7f7f7;
 	width: 400px;
 	height: 520px;
@@ -138,7 +138,7 @@ img:hover {
 	}
 	
 	.modal-img-contain {
-        margin-top: 20px;
+        /*margin-top: 20px;*/
         background-color: #f7f7f7;
         width: 300px;
         height: 430px;
